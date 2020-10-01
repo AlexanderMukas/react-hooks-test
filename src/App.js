@@ -10,7 +10,7 @@ export default function App() {
   // }
   const [todos, setTodos] = useState( [
     {id: 1, title: 'First todo', completed: false},
-    {id: 2, title: 'Second todo', completed: false}
+    {id: 2, title: 'Second todo', completed: true}
   ]);
 
   // const [todoTitle, setTodoTitle] = useState('some todo here...');
