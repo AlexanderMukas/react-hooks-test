@@ -11,6 +11,7 @@ export default function TodoItem({title, id, completed}) {
     cls.push('completed');
   }
   
+
   
   return (
     <li className={cls.join(' ')}>
